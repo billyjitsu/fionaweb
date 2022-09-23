@@ -6,31 +6,10 @@ import { alchemyProvider } from "wagmi/providers/alchemy";
 import { jsonRpcProvider } from 'wagmi/providers/jsonRpc';
 import { publicProvider } from "wagmi/providers/public";
 
-
-/* adding gnosis network */
-const GnosisChain = {
-  id: 100,
-  name: 'Gnosis Chain',
-  network: 'Gnosis',
-  nativeCurrency: {
-    decimals: 18,
-    name: 'xDai',
-    symbol: 'xDai',
-  },
-  rpcUrls: {
-    default: 'https://rpc.ankr.com/gnosis',
-  },
-  blockExplorers: {
-    default: { name: 'Gnosis Scan', url: 'https://gnosisscan.io/' },
-  },
-  iconUrls: ["https://images.prismic.io/koinly-marketing/16d1deb7-e71f-48a5-9ee7-83eb0f7038e4_Gnosis+Chain+Logo.png"],
-  testnet: false,
-}
-
 const { chains, provider } = configureChains(
-  [GnosisChain],
-  [// alchemyProvider({ alchemyId: process.env.NEXT_PUBLIC_ALCHEMY_ID }),
-   jsonRpcProvider({ rpc: () => ({ http: 'https://rpc.ankr.com/gnosis' }) }), // Move this top top
+  [chain.rinkeby],
+  [ alchemyProvider({ alchemyId: process.env.NEXT_PUBLIC_ALCHEMY_ID }),
+   //jsonRpcProvider({ rpc: () => ({ http: 'https://rpc.ankr.com/gnosis' }) }), // Move this top top
    publicProvider()
   ]
 );

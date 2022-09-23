@@ -51,7 +51,7 @@ const Intro = () => {
         return;
       }
 
-      let payment = String(numToMint * 39); // UPDATE THIS PRICE
+      let payment = String(numToMint * .001); // UPDATE THIS PRICE
       console.log("payment:", payment);
       console.log("Total Supply Data:", totalSupply);
 
@@ -126,9 +126,8 @@ const Intro = () => {
                   <p className="mt-4 mb-5 text-md font-bold drop-shadow-md  text-white md:text-lg">
                     Many across Puerto Rico still have no power or running
                     water. Flor de Loto Montessori was extremely damaged during
-                    Hurricane Fiona and needs help. 100% of you mint will go to
-                    rebuilding the school to show the power of crypto and
-                    community.
+                    Hurricane Fiona and needs help. 100% of your mint will go to
+                    rebuilding the school
                   </p>
 
                   <p className="mt-4 mb-8 text-md font-bold  text-white md:text-lg">
@@ -167,8 +166,8 @@ const Intro = () => {
 
                     {loading && (
                       <>
-                        <h3 className="animate-pulse">Processing...</h3>
-                        <p className="animate-pulse">
+                        <h3 className="animate-pulse text-white">Processing...</h3>
+                        <p className="animate-pulse text-white">
                           Your tokens are minting. Please wait a few minutes.
                           This message will be replaced with your transaction
                           once minted.
@@ -177,33 +176,35 @@ const Intro = () => {
                     )}
 
                     {nftMinted && !loading && (
-                      <>
-                        <h3 className="text-lg font-semibold text-gray-700">
+                      <div className="border p-3 space-y-2">
+                        <h3 className="text-lg font-semibold text-white">
                           Your NFTs have been minted!
                         </h3>
                         <a
-                          href={`https://gnosisscan.io/tx/${txn}`}
+                          href={`https://etherscan.io/tx/${txn}`}
                           rel={"noreferrer"}
                           target="_blank"
-                          className="text-lg text-decoration-line: underline text-gray-700"
+                          className="text-lg text-decoration-line: underline text-white"
                         >
                           View transaction
                         </a>
+                        <br></br>
                         <a
-                          href={`https://epor.io/${address}`}
+                          href={`https://opensea.io/${address}`}
                           rel={"noreferrer"}
                           target="_blank"
-                          className="text-lg text-decoration-line: underline text-gray-700"
+                          className="text-lg text-decoration-line: underline text-white"
                         >
-                          Visit Epor to view
+                          Check out your wallet
                         </a>
+                        <br></br>
                         <button
-                          className="bg-btnYellow hover:bg-yellow-400 rounded-full px-12 py-2 sm:w-auto"
+                          className="bg-blue-700 hover:bg-blue-600 text-white rounded-full px-12 py-2 sm:w-auto"
                           onClick={() => resetMinter()}
                         >
                           Go Back
                         </button>
-                      </>
+                      </div>
                     )}
 
                     <div>
@@ -211,7 +212,7 @@ const Intro = () => {
                         Minted so far
                       </h3>
                       <h3 className="text-lg text-white font-semibold">
-                        {totalBought}/2525
+                        {totalBought}/10,035
                       </h3>
                     </div>
                   </div>
