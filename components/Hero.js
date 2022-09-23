@@ -132,7 +132,7 @@ const Intro = () => {
                   </p>
 
                   <p className="mt-4 mb-8 text-md font-bold  text-white md:text-lg">
-                    Mint your support for 0.015 ETH
+                    Mint your support for 0.004 ETH (~5 bucks)
                   </p>
                 </div>
 
