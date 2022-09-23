@@ -68,13 +68,13 @@ const Header = () => {
             <li className="flex items-center">
               <a
                 className="py-2 text-sm uppercase px-6 font-bold leading-snug text-gray-800 lg:text-base lg:text-white hover:opacity-75 lg:px-3"
-                href="https://vote.nfbeez.xyz/#/"
+                href="https://wildflowerschools.org/pr/flordeloto/"
                 target="_blank"
                 rel="noreferrer"
                 onClick={() => setNavbarOpen(!navbarOpen)}
               >
                 <i className=" leading-lg opacity-75"></i>
-                <span>Vote</span>
+                <span>WildFlowers</span>
               </a>
             </li>
             {/*  
@@ -92,7 +92,7 @@ const Header = () => {
             <li className="flex items-center">
               <a
                 className="py-2 text-sm uppercase px-6 font-bold leading-snug text-gray-800 lg:text-base lg:text-white hover:opacity-75 lg:px-3"
-                href="https://thecubeweb-git-comingsoon-billyjitsu.vercel.app/"
+                href="https://opensea.io/"
                 onClick={() => setNavbarOpen(!navbarOpen)}
               >
                 <i className=" leading-lg  opacity-75"></i>
