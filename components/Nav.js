@@ -52,7 +52,7 @@ const Header = () => {
             <FontAwesomeIcon
               icon={faBars}
               width="24px"
-              className="text-black"
+              className="text-white"
             />
           </button>
         </div>
@@ -96,7 +96,7 @@ const Header = () => {
                 onClick={() => setNavbarOpen(!navbarOpen)}
               >
                 <i className=" leading-lg  opacity-75"></i>
-                <span>The Cube</span>
+                <span>Collection</span>
               </a>
             </li>
 
