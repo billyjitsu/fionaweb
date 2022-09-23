@@ -157,7 +157,7 @@ const Intro = () => {
                         />
                         <button
                           onClick={() => buyToken()}
-                          className="bg-blue-700 hover:bg-blue-600 text-white rounded-full px-12 py-2 sm:w-auto"
+                          className="bg-cyan-400 hover:bg-cyan-500 text-black rounded-full px-12 py-2 sm:w-auto"
                         >
                           Mint NFTs
                         </button>
