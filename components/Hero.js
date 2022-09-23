@@ -111,7 +111,7 @@ const Intro = () => {
               alt="heroBanner"
               layout="fill"
               objectFit="cover"
-              className="opacity-25"
+              className="opacity-20"
             />
           </div>
 
