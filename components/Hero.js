@@ -121,12 +121,11 @@ const Intro = () => {
                 <Image src={beezImg} alt="beezImg" className="" />
                 <div className="">
                   <h1 className="text-white font-bold text-3xl leading-tighter tracking-tighter drop-shadow-md md:text-4xl">
-                  Fiona through a kid's eyes
+                  Fiona through a {"kid's"} eyes
                   </h1>
                   <h3 className="mt-4 mb-3 text-md drop-shadow-md  text-white md:text-md">
                     On September 18, 2022 Hurricane Fiona devastated Puerto
-                    Rico, just 5 years after the historic damage left by
-                    Hurricane Maria. Many across Puerto Rico, still have no
+                    Rico. Many across Puerto Rico, still have no
                     power or running water. Flor de Loto Montessori is a
                     non-profit school and community pillar in Ponce, PR, who is
                     providing support to the children, families, staff and
