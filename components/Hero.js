@@ -117,7 +117,7 @@ const Intro = () => {
 
           <div className="container relative mx-auto p-16 md:p-0">
             <div className="flex flex-wrap items-center ">
-              <div className="w-full md:max-w-2xl mt-10 px-4 ml-auto mr-auto text-center">
+              <div className="w-full md:max-w-2xl mt-10  md:mt-24 px-4 ml-auto mr-auto text-center">
                   <Image src={beezImg} alt="beezImg" className="" /> 
                 <div className="">
                 <h1 className="text-white font-bold text-3xl leading-tighter tracking-tighter drop-shadow-md md:text-4xl">
@@ -135,7 +135,7 @@ const Intro = () => {
                     community members during this emergency. Now this community
                     asks for your support.
                   </h3>
-                  <h3 className="mt-4 mb-3 text-md drop-shadow-md  text-white md:text-md"> 100% of your mint will go toward relief efforts in the school and nearby communities.</h3>
+                  <h3 className="mt-4 mb-3 text-md drop-shadow-md  text-white font-bold md:text-md"> 100% of your mint will go toward relief efforts in the school and nearby communities.</h3>
 
                   <h3 className="mt-4 mb-3 text-md drop-shadow-md  text-white md:text-md"> The children of Flor de Loto Montessori School in Ponce, Puerto Rico captured through their drawings their feelings, emotions and experiences lived during Hurricane Fiona. </h3>
 
