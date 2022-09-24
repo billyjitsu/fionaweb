@@ -51,7 +51,7 @@ const Intro = () => {
         return;
       }
 
-      let payment = String(numToMint * .001); // UPDATE THIS PRICE
+      let payment = String(numToMint * 0.001); // UPDATE THIS PRICE
       console.log("payment:", payment);
       console.log("Total Supply Data:", totalSupply);
 
@@ -117,20 +117,25 @@ const Intro = () => {
 
           <div className="container relative mx-auto p-16 md:p-0">
             <div className="flex flex-wrap items-center ">
-              <div className="w-full md:max-w-lg mt-10 px-4 ml-auto mr-auto text-center">
+              <div className="w-full md:max-w-xl mt-10 px-4 ml-auto mr-auto text-center">
                 <Image src={beezImg} alt="beezImg" className="" />
                 <div className="">
                   <h1 className="text-white font-bold text-3xl leading-tighter tracking-tighter drop-shadow-md md:text-4xl">
-                    Web3 Pitching In
+                  Fiona through a kid's eyes
                   </h1>
-                  <p className="mt-4 mb-5 text-md font-bold drop-shadow-md  text-white md:text-lg">
-                    Many across Puerto Rico still have no power or running
-                    water. Flor de Loto Montessori was extremely damaged during
-                    Hurricane Fiona and needs help. 100% of your mint will go to
-                    rebuilding the school
-                  </p>
+                  <h3 className="mt-4 mb-3 text-md drop-shadow-md  text-white md:text-md">
+                    On September 18, 2022 Hurricane Fiona devastated Puerto
+                    Rico, just 5 years after the historic damage left by
+                    Hurricane Maria. Many across Puerto Rico, still have no
+                    power or running water. Flor de Loto Montessori is a
+                    non-profit school and community pillar in Ponce, PR, who is
+                    providing support to the children, families, staff and
+                    community members during this emergency. Now this community
+                    asks for your support.
+                  </h3>
+                  <h3 className="mt-4 mb-3 text-md drop-shadow-md  text-white md:text-md"> 100% of your mint will go toward relief efforts in the school and nearby communities.</h3>
 
-                  <p className="mt-4 mb-8 text-md font-bold  text-white md:text-lg">
+                  <p className="mt-4 mb-4 text-md font-bold  text-white md:text-lg">
                     Mint your support for 0.004 ETH (~5 bucks)
                   </p>
                 </div>
@@ -143,7 +148,9 @@ const Intro = () => {
                     {!loading && !nftMinted && (
                       <>
                         <div>
-                          <h3 className="text-sm text-white">Choose your amount</h3>
+                          <h3 className="text-sm text-white">
+                            Choose your amount
+                          </h3>
                         </div>
                         <input
                           type="number"
@@ -166,7 +173,9 @@ const Intro = () => {
 
                     {loading && (
                       <>
-                        <h3 className="animate-pulse text-white">Processing...</h3>
+                        <h3 className="animate-pulse text-white">
+                          Processing...
+                        </h3>
                         <p className="animate-pulse text-white">
                           Your tokens are minting. Please wait a few minutes.
                           This message will be replaced with your transaction
@@ -208,7 +217,7 @@ const Intro = () => {
                     )}
 
                     <div>
-                      <h3 className="text-lg text-white font-semibold mt-6">
+                      <h3 className="text-lg text-white font-semibold mt-3">
                         Minted so far
                       </h3>
                       <h3 className="text-lg text-white font-semibold">
