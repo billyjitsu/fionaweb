@@ -104,8 +104,8 @@ const Intro = () => {
   return (
     <section className="hero">
       <div className="">
-        <div className="relative flex w-full h-screen content-center items-center justify-center md:h-screen z-10 bg-black">
-          <div className="">
+        <div className="relative flex w-full  content-center items-center justify-center  z-10 bg-black">
+         <div className="">
             <Image
               src={heroImage}
               alt="heroBanner"
@@ -117,11 +117,14 @@ const Intro = () => {
 
           <div className="container relative mx-auto p-16 md:p-0">
             <div className="flex flex-wrap items-center ">
-              <div className="w-full md:max-w-xl mt-10 px-4 ml-auto mr-auto text-center">
-                <Image src={beezImg} alt="beezImg" className="" />
+              <div className="w-full md:max-w-2xl mt-10 px-4 ml-auto mr-auto text-center">
+                  <Image src={beezImg} alt="beezImg" className="" /> 
                 <div className="">
+                <h1 className="text-white font-bold text-3xl leading-tighter tracking-tighter drop-shadow-md md:text-4xl">
+                  Fiona A Través De Los Ojos De Los Niños
+                  </h1>
                   <h1 className="text-white font-bold text-3xl leading-tighter tracking-tighter drop-shadow-md md:text-4xl">
-                  Fiona through a {"kid's"} eyes
+                  (Fiona Through {"Kid's"} Eyes)
                   </h1>
                   <h3 className="mt-4 mb-3 text-md drop-shadow-md  text-white md:text-md">
                     On September 18, 2022 Hurricane Fiona devastated Puerto
@@ -133,6 +136,12 @@ const Intro = () => {
                     asks for your support.
                   </h3>
                   <h3 className="mt-4 mb-3 text-md drop-shadow-md  text-white md:text-md"> 100% of your mint will go toward relief efforts in the school and nearby communities.</h3>
+
+                  <h3 className="mt-4 mb-3 text-md drop-shadow-md  text-white md:text-md"> The children of Flor de Loto Montessori School in Ponce, Puerto Rico captured through their drawings their feelings, emotions and experiences lived during Hurricane Fiona. </h3>
+
+                  <h3 className="mt-4 mb-3 text-md drop-shadow-md  text-white md:text-md"> These are works of art inspired by their reasoning and imaginative mind. Worked in a simple and pure way with colored pencils, crayons, markers on white paper canvases. Materials accessible at this time of national emergency. </h3>
+
+                  <h3 className="mt-4 mb-3 text-md drop-shadow-md  text-white md:text-md"> Flor de Loto Montessori is a non-profit entity that works every day to serve children, families, team members and the community. In times of emergency and need we are present with different initiatives and this is one of them. Always thinking of our children who are the future of our country and the adults who accompany them in their process of self-building day by day.</h3>
 
                   <p className="mt-4 mb-4 text-md font-bold  text-white md:text-lg">
                     Mint your support for 0.004 ETH (~5 bucks)
@@ -219,7 +228,7 @@ const Intro = () => {
                       <h3 className="text-lg text-white font-semibold mt-3">
                         Minted so far
                       </h3>
-                      <h3 className="text-lg text-white font-semibold">
+                      <h3 className="text-lg text-white font-semibold mb-8">
                         {totalBought}/10,035
                       </h3>
                     </div>
