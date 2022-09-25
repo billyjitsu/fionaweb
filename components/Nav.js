@@ -74,7 +74,7 @@ const Header = () => {
                 onClick={() => setNavbarOpen(!navbarOpen)}
               >
                 <i className=" leading-lg opacity-75"></i>
-                <span>WildFlowers</span>
+                <span>About</span>
               </a>
             </li>
             {/*  

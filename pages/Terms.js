@@ -26,7 +26,7 @@ const Terms = () => {
           terms. IF YOU DO NOT AGREE TO BE BOUND BY THE TERMS AND CONDITIONS OF
           THIS AGREEMENT, YOU MAY NOT PARTICIPATE IN THE OFFERING.
         </p>
-        <p className="mb-5">1. Definitions. </p>
+        <p className="mb-5">1. DEFINITIONS. </p>
         <p className="mb-5 text-sm">
           “Agreement” as defined in Article 3.1 herein. “Art” means any digital
           creation, art, design and drawings created by its author, and first
@@ -98,7 +98,7 @@ const Terms = () => {
           g. “Licensed NFT” means an NFT from FTCE Project.
         </p>
 
-        <p className="mb-5">2. Ownership</p>
+        <p className="mb-5">2. OWNERSHIP</p>
         <p className="mb-5 text-sm">
           You acknowledge and agree that FTCE (or, as applicable, its licensors)
           owns all legal right, title and interest in and to the Art and Name
@@ -313,14 +313,15 @@ const Terms = () => {
           FTCE’S NEGLIGENCE OR ANY INJURY CAUSED BY FTCE’S FRAUD OR FRAUDULENT
           MISREPRESENTATION.
         </p>
-
+            {/* 
         <p className="mb-5">
           10. If you are provided a translation of this Agreement, the original
           version in English will be used in deciding any issues or disputes
           which arise under this Agreement.{" "}
         </p>
+        */}
 
-        <p className="mb-5">11. COOPERATION</p>
+        <p className="mb-5">10. COOPERATION</p>
 
         <p className="mb-5 text-sm">
           A. FTCE AND THE OWNER SHALL COOPERATE IN GOOD FAITH AND REASONABLY
@@ -334,7 +335,7 @@ const Terms = () => {
           LITIGATION, THE RIGHTS ATTACHED TO THE ART IN THE EVENT OF THE OWNER’S
           INACTION ON WRITTEN NOTICE BY FTCE TO THE OWNER.
         </p>
-        <p className="mb-5">12. SEVERABILITY</p>
+        <p className="mb-5">11. SEVERABILITY</p>
         <p className="mb-5 text-sm">
           If any term or provision of this Agreement is invalid, illegal, or
           unenforceable in any jurisdiction, such invalidity, illegality, or
@@ -343,7 +344,7 @@ const Terms = () => {
           in any other jurisdiction.
         </p>
 
-        <p className="mb-5">13. APPLICABLE LAW</p>
+        <p className="mb-5">12. APPLICABLE LAW</p>
         <p className="mb-5 text-sm">
           a. THE VALIDITY OF THESE TERMS AND ANY OF ITS TERMS AND PROVISIONS, AS
           WELL AS THE RIGHTS AND DUTIES OF THE PARTIES HEREUNDER, SHALL BE
@@ -358,7 +359,7 @@ const Terms = () => {
           FEDERAL COURT OF APPROPRIATE JURISDICTION LOCATED IN SAN JUAN, PUERTO
           RICO SHALL BE THE VENUE FOR ANY FORMAL DISPUTES BETWEEN USER AND FTCE.
         </p>
-        <p className="mb-5">14. CONTACT US</p>
+        <p className="mb-5">13. CONTACT US</p>
         <p className="mb-5 text-sm">
           If you have any questions or concerns, including if you need to access
           this Agreement in an alternative format.

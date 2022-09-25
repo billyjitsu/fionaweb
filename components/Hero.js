@@ -47,14 +47,14 @@ const Intro = () => {
     try {
       let totalSupply = totalBuyData.toNumber();
       //If sold out, notify
-      if (totalSupply === 2525) {
+      if (totalSupply === 10035) {
         alert("Sold Out!");
         return;
       }
 
-      let payment = String(numToMint * 0.001); // UPDATE THIS PRICE
+      let payment = String(numToMint * 0.0001); // UPDATE THIS PRICE
       console.log("payment:", payment);
-      console.log("Total Supply Data:", totalSupply);
+   //   console.log("Total Supply Data:", totalSupply);
 
       let totalGas;
       if (numToMint < 2) {
@@ -217,7 +217,7 @@ const Intro = () => {
                         </a>
                         <br></br>
                         <button
-                          className="bg-blue-700 hover:bg-blue-600 text-white rounded-full px-12 py-2 sm:w-auto"
+                          className="bg-cyan-400 hover:bg-cyan-500 text-black rounded-full px-12 py-2 sm:w-auto"
                           onClick={() => resetMinter()}
                         >
                           Go Back

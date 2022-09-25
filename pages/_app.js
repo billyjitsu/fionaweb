@@ -7,14 +7,14 @@ import { jsonRpcProvider } from 'wagmi/providers/jsonRpc';
 import { publicProvider } from "wagmi/providers/public";
 
 const { chains, provider } = configureChains(
-  [chain.rinkeby],
+  [chain.goerli],
   [ alchemyProvider({ alchemyId: process.env.NEXT_PUBLIC_ALCHEMY_ID }),
    //jsonRpcProvider({ rpc: () => ({ http: 'https://rpc.ankr.com/gnosis' }) }), // Move this top top
    publicProvider()
   ]
 );
 const { connectors } = getDefaultWallets({
-  appName: "The NFBeez",
+  appName: "Fiora",
   chains,
 });
 const wagmiClient = createClient({
