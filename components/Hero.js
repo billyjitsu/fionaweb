@@ -11,6 +11,7 @@ import {
   useProvider,
   useSigner,
 } from "wagmi";
+import Footer from "./Footer";
 //contract location
 import contractInterface from "../contracts/NFT.json";
 
@@ -124,7 +125,7 @@ const Intro = () => {
                   Fiona A Través De Los Ojos De Los Niños
                   </h1>
                   <h1 className="text-white font-bold text-3xl leading-tighter tracking-tighter drop-shadow-md md:text-4xl">
-                  (Fiona Through {"Kid's"} Eyes)
+                  (Fiona Through {"Children's"} Eyes)
                   </h1>
                   <h3 className="mt-4 mb-3 text-md drop-shadow-md  text-white md:text-md">
                     On September 18, 2022 Hurricane Fiona devastated Puerto
