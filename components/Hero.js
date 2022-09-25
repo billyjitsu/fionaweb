@@ -199,7 +199,7 @@ const Intro = () => {
                           Your NFTs have been minted!
                         </h3>
                         <a
-                          href={`https://etherscan.io/tx/${txn}`}
+                          href={`https://goerli.etherscan.io/tx/${txn}`}
                           rel={"noreferrer"}
                           target="_blank"
                           className="text-lg text-decoration-line: underline text-white"
@@ -208,7 +208,7 @@ const Intro = () => {
                         </a>
                         <br></br>
                         <a
-                          href={`https://opensea.io/${address}`}
+                          href={`https://testnets.opensea.io/${address}`}
                           rel={"noreferrer"}
                           target="_blank"
                           className="text-lg text-decoration-line: underline text-white"
