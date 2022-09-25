@@ -52,7 +52,7 @@ const Intro = () => {
         return;
       }
 
-      let payment = String(numToMint * 0.0001); // UPDATE THIS PRICE
+      let payment = String(numToMint * 0.004); // UPDATE THIS PRICE
       console.log("payment:", payment);
    //   console.log("Total Supply Data:", totalSupply);
 
@@ -166,7 +166,7 @@ const Intro = () => {
                           name="tokenID"
                           placeholder=" Amount"
                           min="1"
-                          max="10"
+                          max="20"
                           className="w-1/4 mb-2 text-black shadow-sm rounded-lg text-center pl-2"
                           onChange={handleChange}
                           value={numToMint}
@@ -196,7 +196,10 @@ const Intro = () => {
                     {nftMinted && !loading && (
                       <div className="border p-3 space-y-2">
                         <h3 className="text-lg font-semibold text-white">
-                          Your NFTs have been minted!
+                          Thank you for your support!
+                        </h3>
+                        <h3 className="text-lg font-semibold text-white">
+                          Your NFTs have been minted
                         </h3>
                         <a
                           href={`https://goerli.etherscan.io/tx/${txn}`}
