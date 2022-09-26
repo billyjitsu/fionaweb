@@ -147,19 +147,20 @@ const Intro = () => {
                     {" "}
                     These are works of art inspired by their reasoning and
                     imaginative mind. Worked in a simple and pure way with
-                    colored pencils, crayons, and markers on white paper canvases.
-                    Materials accessible at this time of national emergency.{" "}
+                    colored pencils, crayons, and markers on white paper
+                    canvases. Materials accessible at this time of national
+                    emergency.{" "}
                   </h3>
 
                   <h3 className="mt-4 mb-3 text-md drop-shadow-md  text-white md:text-md">
                     {" "}
                     Flor de Loto Montessori is a non-profit entity that works
                     every day to serve children, families, team members and the
-                    community. In times of emergency and need they are always present
-                    with different initiatives and this is one of them. Always
-                    thinking of our children who are the future of our country
-                    and the adults who accompany them in their process of
-                    self-building day by day.
+                    community. In times of emergency and need they are always
+                    present with different initiatives and this is one of them.
+                    Always thinking of our children who are the future of our
+                    country and the adults who accompany them in their process
+                    of self-building day by day.
                   </h3>
 
                   <p className="mt-4 mb-4 text-md font-bold  text-white md:text-lg">
@@ -236,11 +237,31 @@ const Intro = () => {
                         >
                           Check out your wallet
                         </a>
+                        
+
+                        <br></br>
+                        <a
+                            href="https://twitter.com/share?ref_src=twsrc%5Etfw"
+                            class="twitter-share-button"
+                            data-text="Just minted to support Flor De Loto in Puerto Rico"
+                            data-url="https://www.helpPR.xyz/"
+                            data-hashtags="helpPR #hurricaneFiona"
+                            data-show-count="false"
+                          >
+                            Tweet
+                          </a>
+                          <script
+                            async
+                            src="https://platform.twitter.com/widgets.js"
+                            charset="utf-8"
+                          ></script>
+                        
                         <br></br>
                         <button
                           className="bg-cyan-400 hover:bg-cyan-500 text-black rounded-full px-12 py-2 sm:w-auto"
                           onClick={() => resetMinter()}
                         >
+                          
                           Go Back
                         </button>
                       </div>
@@ -266,6 +287,25 @@ const Intro = () => {
                         0x96ebe589deb9A0abE23eB340342E7d50f20Bc31d
                       </h3>
                     </div>
+
+                    <a
+                            href="https://twitter.com/share?ref_src=twsrc%5Etfw"
+                            class="twitter-share-button"
+                            data-text="Just minted to support Flor De Loto in Puerto Rico"
+                            data-url="https://www.helpPR.xyz/"
+                            data-hashtags="helpPR #hurricaneFiona"
+                            data-show-count="false"
+                          >
+                            Tweet
+                          </a>
+                          <script
+                            async
+                            src="https://platform.twitter.com/widgets.js"
+                            charset="utf-8"
+                          ></script>
+
+
+
                   </div>
                 </div>
               </div>
