@@ -236,6 +236,19 @@ const Intro = () => {
                         {totalBought}/10,035
                       </h3>
                     </div>
+
+
+                    <div>
+                      <h3 className="text-md text-white ">
+                        Want to donate a stable coin?
+                      </h3>
+                      <h3 className="text-md text-white ">
+                        You can send directly to FLM Multisig on ETH Mainnet:
+                      </h3>
+                      <h3 className="text-lg text-white font-semibold mb-8">
+                      0x96ebe589deb9A0abE23eB340342E7d50f20Bc31d
+                      </h3>
+                    </div>
                   </div>
                 </div>
               </div>
