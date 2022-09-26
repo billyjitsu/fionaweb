@@ -1,6 +1,6 @@
 import Image from "next/image";
 import heroImage from "../images/bg.webp";
-import beezImg from "../images/banner.jpg";
+import beezImg from "../images/banner.png";
 import { ethers } from "ethers";
 import { useState, useEffect } from "react";
 import {
