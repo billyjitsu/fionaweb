@@ -239,25 +239,6 @@ const Intro = () => {
                         </a>
 
                         <br></br>
-                        <a
-                          href="https://twitter.com/share?ref_src=twsrc%5Etfw"
-                          rel={"noreferrer"}
-                          target="_blank"
-                          class="twitter-share-button"
-                          data-text="Just minted to support Flor De Loto in Puerto Rico"
-                          data-url="https://www.helpPR.xyz/"
-                          data-hashtags="helpPR #hurricaneFiona"
-                          data-show-count="false"
-                        >
-                          Tweet
-                        </a>
-                        <script
-                          async
-                          src="https://platform.twitter.com/widgets.js"
-                          charset="utf-8"
-                        ></script>
-
-                        <br></br>
                         <button
                           className="bg-cyan-400 hover:bg-cyan-500 text-black rounded-full px-12 py-2 sm:w-auto"
                           onClick={() => resetMinter()}
@@ -283,10 +264,29 @@ const Intro = () => {
                       <h3 className="text-sm text-white ">
                         You can send directly to FLM Multisig on ETH Mainnet:
                       </h3>
-                      <h3 className="text-lg text-white font-semibold mb-8">
+                      <h3 className="text-lg text-white font-semibold mb-2">
                         0x96ebe589deb9A0abE23eB340342E7d50f20Bc31d
                       </h3>
                     </div>
+
+                    <div className="pb-4">
+                      <a
+                        href="https://twitter.com/share?ref_src=twsrc%5Etfw"
+                        class="twitter-share-button"
+                        data-text="Sharing my support for Flor De Loto in Puerto Rico"
+                        data-url="https://www.helpPR.xyz/"
+                        data-hashtags="helpPR #hurricaneFiona"
+                        data-show-count="false"
+                      >
+                        Tweet
+                      </a>
+                      <script
+                        async
+                        src="https://platform.twitter.com/widgets.js"
+                        charset="utf-8"
+                      ></script>
+                    </div>
+
                   </div>
                 </div>
               </div>
