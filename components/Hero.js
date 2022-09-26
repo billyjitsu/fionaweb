@@ -54,7 +54,7 @@ const Intro = () => {
 
       let payment = String(numToMint * 0.004); // UPDATE THIS PRICE
       console.log("payment:", payment);
-   //   console.log("Total Supply Data:", totalSupply);
+      //   console.log("Total Supply Data:", totalSupply);
 
       let totalGas;
       if (numToMint < 2) {
@@ -100,7 +100,7 @@ const Intro = () => {
     <section className="hero">
       <div className="">
         <div className="relative flex w-full  content-center items-center justify-center  z-10 bg-black">
-         <div className="">
+          <div className="">
             <Image
               src={heroImage}
               alt="heroBanner"
@@ -113,30 +113,54 @@ const Intro = () => {
           <div className="container relative mx-auto p-16 md:p-0">
             <div className="flex flex-wrap items-center ">
               <div className="w-full md:max-w-2xl mt-10  md:mt-24 px-4 ml-auto mr-auto text-center">
-                  <Image src={beezImg} alt="beezImg" className="" /> 
+                <Image src={beezImg} alt="beezImg" className="" />
                 <div className="">
-                <h1 className="text-white font-bold text-3xl leading-tighter tracking-tighter md:mt-4 drop-shadow-md md:text-4xl">
-                  Fiona A Través De Los Ojos De Los Niños
+                  <h1 className="text-white font-bold text-3xl leading-tighter tracking-tighter md:mt-4 drop-shadow-md md:text-4xl">
+                    Fiona A Través De Los Ojos De Los Niños
                   </h1>
                   <h1 className="text-white font-bold text-3xl leading-tighter tracking-tighter drop-shadow-md md:text-4xl">
-                  (Fiona Through {"Children's"} Eyes)
+                    (Fiona Through {"Children's"} Eyes)
                   </h1>
                   <h3 className="mt-4 mb-3 text-md drop-shadow-md  text-white md:text-md">
                     On September 18, 2022 Hurricane Fiona devastated Puerto
-                    Rico. Many across Puerto Rico, still have no
-                    power or running water. Flor de Loto Montessori is a
-                    non-profit school and community pillar in Ponce, PR, who is
-                    providing support to the children, families, staff and
-                    community members during this emergency. Now this community
-                    asks for your support.
+                    Rico. Many across Puerto Rico, still have no power or
+                    running water. Flor de Loto Montessori is a non-profit
+                    school and community pillar in Ponce, PR, who is providing
+                    support to the children, families, staff and community
+                    members during this emergency. Now this community asks for
+                    your support.
                   </h3>
-                  <h3 className="mt-4 mb-3 text-md drop-shadow-md  text-white font-bold md:text-md"> 100% of your mint will go toward relief efforts in the school and nearby communities.</h3>
+                  <h3 className="mt-4 mb-3 text-md drop-shadow-md  text-white font-bold md:text-md">
+                    {" "}
+                    100% of your mint will go toward relief efforts in the
+                    school and nearby communities.
+                  </h3>
 
-                  <h3 className="mt-4 mb-3 text-md drop-shadow-md  text-white md:text-md"> The children of Flor de Loto Montessori School in Ponce, Puerto Rico captured through their drawings their feelings, emotions and experiences lived during Hurricane Fiona. </h3>
+                  <h3 className="mt-4 mb-3 text-md drop-shadow-md  text-white md:text-md">
+                    {" "}
+                    The children of Flor de Loto Montessori School in Ponce,
+                    Puerto Rico captured through their drawings their feelings,
+                    emotions and experiences lived during Hurricane Fiona.{" "}
+                  </h3>
 
-                  <h3 className="mt-4 mb-3 text-md drop-shadow-md  text-white md:text-md"> These are works of art inspired by their reasoning and imaginative mind. Worked in a simple and pure way with colored pencils, crayons, markers on white paper canvases. Materials accessible at this time of national emergency. </h3>
+                  <h3 className="mt-4 mb-3 text-md drop-shadow-md  text-white md:text-md">
+                    {" "}
+                    These are works of art inspired by their reasoning and
+                    imaginative mind. Worked in a simple and pure way with
+                    colored pencils, crayons, and markers on white paper canvases.
+                    Materials accessible at this time of national emergency.{" "}
+                  </h3>
 
-                  <h3 className="mt-4 mb-3 text-md drop-shadow-md  text-white md:text-md"> Flor de Loto Montessori is a non-profit entity that works every day to serve children, families, team members and the community. In times of emergency and need we are present with different initiatives and this is one of them. Always thinking of our children who are the future of our country and the adults who accompany them in their process of self-building day by day.</h3>
+                  <h3 className="mt-4 mb-3 text-md drop-shadow-md  text-white md:text-md">
+                    {" "}
+                    Flor de Loto Montessori is a non-profit entity that works
+                    every day to serve children, families, team members and the
+                    community. In times of emergency and need they are always present
+                    with different initiatives and this is one of them. Always
+                    thinking of our children who are the future of our country
+                    and the adults who accompany them in their process of
+                    self-building day by day.
+                  </h3>
 
                   <p className="mt-4 mb-4 text-md font-bold  text-white md:text-lg">
                     Mint your support for 0.004 ETH (~5 bucks)
@@ -231,7 +255,6 @@ const Intro = () => {
                       </h3>
                     </div>
 
-
                     <div>
                       <h3 className="text-sm text-white ">
                         Want to donate a stable coin?
@@ -240,7 +263,7 @@ const Intro = () => {
                         You can send directly to FLM Multisig on ETH Mainnet:
                       </h3>
                       <h3 className="text-lg text-white font-semibold mb-8">
-                      0x96ebe589deb9A0abE23eB340342E7d50f20Bc31d
+                        0x96ebe589deb9A0abE23eB340342E7d50f20Bc31d
                       </h3>
                     </div>
                   </div>
