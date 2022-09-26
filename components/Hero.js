@@ -1,6 +1,6 @@
 import Image from "next/image";
 import heroImage from "../images/bg.webp";
-import beezImg from "../images/banner.png";
+import beezImg from "../images/banner.jpg";
 import { ethers } from "ethers";
 import { useState, useEffect } from "react";
 import {
@@ -121,7 +121,7 @@ const Intro = () => {
               <div className="w-full md:max-w-2xl mt-10  md:mt-24 px-4 ml-auto mr-auto text-center">
                   <Image src={beezImg} alt="beezImg" className="" /> 
                 <div className="">
-                <h1 className="text-white font-bold text-3xl leading-tighter tracking-tighter drop-shadow-md md:text-4xl">
+                <h1 className="text-white font-bold text-3xl leading-tighter tracking-tighter md:mt-4 drop-shadow-md md:text-4xl">
                   Fiona A Través De Los Ojos De Los Niños
                   </h1>
                   <h1 className="text-white font-bold text-3xl leading-tighter tracking-tighter drop-shadow-md md:text-4xl">

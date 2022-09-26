@@ -10,7 +10,7 @@ const Header = () => {
 
   useEffect(() => {
     const listener = () => {
-      if (window.scrollY > 120) {
+      if (window.scrollY > 60) {
         setAnimateHeader(true);
       } else {
         setAnimateHeader(false);
