@@ -11,7 +11,7 @@ import {
   useProvider,
   useSigner,
 } from "wagmi";
-import Footer from "./Footer";
+
 //contract location
 import contractInterface from "../contracts/NFT.json";
 
@@ -95,12 +95,6 @@ const Intro = () => {
       setTotalBought(totalBuyData.toNumber());
     }
   }, [totalBuyData]);
-
-  /*
-  useEffect(() => {
-    console.log("contract", process.env.NEXT_PUBLIC_CONTRACT_ADDRESS )
-  }, []);
- */
 
   return (
     <section className="hero">
@@ -239,10 +233,10 @@ const Intro = () => {
 
 
                     <div>
-                      <h3 className="text-md text-white ">
+                      <h3 className="text-sm text-white ">
                         Want to donate a stable coin?
                       </h3>
-                      <h3 className="text-md text-white ">
+                      <h3 className="text-sm text-white ">
                         You can send directly to FLM Multisig on ETH Mainnet:
                       </h3>
                       <h3 className="text-lg text-white font-semibold mb-8">

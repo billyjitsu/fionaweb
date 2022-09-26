@@ -8,8 +8,9 @@ import { publicProvider } from "wagmi/providers/public";
 
 const { chains, provider } = configureChains(
   [chain.goerli],
-  [ alchemyProvider({ alchemyId: process.env.NEXT_PUBLIC_ALCHEMY_ID }),
-   //jsonRpcProvider({ rpc: () => ({ http: 'https://rpc.ankr.com/gnosis' }) }), // Move this top top
+  [ 
+    //jsonRpcProvider({ rpc: () => ({ http: 'https://rpc.ankr.com/eth' }) }), // Move this top top
+   alchemyProvider({ alchemyId: process.env.NEXT_PUBLIC_ALCHEMY_ID }),
    publicProvider()
   ]
 );
@@ -27,7 +28,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <WagmiConfig client={wagmiClient}>
       <RainbowKitProvider coolMode chains={chains} theme={lightTheme({
-      accentColor: '#22d3ee',  //color of wallet  try #703844
+      accentColor: '#22d3ee',  
       accentColorForeground: 'black',
       borderRadius: 'large',
       fontStack: 'system',

@@ -9,8 +9,8 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>WildFlowers</title>
-        <meta name="description" content="The NFBeez" />
+        <title>Flor De Loto</title>
+        <meta name="description" content="Flor De Loto" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
     <Nav />
