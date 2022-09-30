@@ -27,43 +27,6 @@ const Terms = () => {
           THIS AGREEMENT, YOU MAY NOT PARTICIPATE IN THE OFFERING.
         </p>
         <p className="mb-5">1. DEFINITIONS. </p>
-        <p className="mb-5 text-sm">
-          “Agreement” as defined in Article 3.1 herein. “Art” means any digital
-          creation, art, design and drawings created by its author, and first
-          released to the public by the Creator, that may be associated with an
-          NFT that can be transferred to an Owner. “Creator” means the entity
-          which released to the public the Purchased NFT and related Art, on
-          behalf of its author – in this case, the Company. “Effective Date”
-          means the date on which the Agreement is attached to the Purchased NFT
-          for the first time. “NFT” means any blockchain-tracked, non-fungible
-          token. In this case, tokens created by NFBeez. “Own” means, with
-          respect to an NFT, an NFT that one has purchased or otherwise
-          rightfully acquired from a legitimate source, where proof of such
-          purchase is recorded on the relevant blockchain, thus becoming Owner
-          of the Purchased NFT and related Art. “Owner” means the current owner
-          of the NFT and related Art. In the case of transfer of ownership,
-          including by means of Resale, the recipient becomes the sole Owner of
-          the Purchased NFT. There can be several different owners of each NFT
-          (and related Art) throughout time but only one Owner at a time. Owner
-          shall include Primary Owner and all subsequent Owners. “Primary
-          Assignment” means the first assignment by Creator of all its rights,
-          title and interest in and to the intellectual property rights on the
-          Art to Primary Owner. 2 “Primary Owner” means the individual or entity
-          qualifying as Owner on the Effective Date and party to the Primary
-          Assignment. “Purchased NFT” means a NFBeez NFT that one has purchased,
-          or acquired in any way, and thus Owns altogether with the related Art.
-          “Purchase Price” means the price for such NFTs as set forth in the
-          applicable listing for the NFT, and all processing fees, commission
-          fees, network fees (including gas fees), handling charges, and all
-          applicable taxes in connection with your purchase. “Resale” means the
-          sale by Owner of the Purchased NFT and related Art to a subsequent
-          buyer, which shall Own the Purchased NFT and related Art upon its
-          effective purchase and thus become its new Owner. “Secondary
-          Assignment” means, in case of Resale, any and all assignment by Owner
-          of all its rights, title and interest in and to the intellectual
-          property rights in the Art to the subsequent buyer of the Purchased
-          NFT.
-        </p>
 
         <p className="mb-5 text-sm">
           a. “Art” means any art, graphics, images, designs, logos, taglines,
