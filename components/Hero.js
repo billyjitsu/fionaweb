@@ -64,7 +64,7 @@ const Intro = () => {
       }
 
       let nftTxn = await buyBees.mint(numToMint, {
-        gasLimit: totalGas,
+      //  gasLimit: totalGas,
         value: ethers.utils.parseEther(payment),
       });
 
