@@ -7,9 +7,9 @@ import { jsonRpcProvider } from 'wagmi/providers/jsonRpc';
 import { publicProvider } from "wagmi/providers/public";
 
 const { chains, provider } = configureChains(
-  [chain.goerli],
+  [chain.mainnet],
   [ 
-    //jsonRpcProvider({ rpc: () => ({ http: 'https://rpc.ankr.com/eth' }) }), // Move this top top
+   jsonRpcProvider({ rpc: () => ({ http: 'https://rpc.ankr.com/eth' }) }), 
    alchemyProvider({ alchemyId: process.env.NEXT_PUBLIC_ALCHEMY_ID }),
    publicProvider()
   ]

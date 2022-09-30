@@ -52,9 +52,9 @@ const Intro = () => {
         return;
       }
 
-      let payment = String(numToMint * 0.004); // UPDATE THIS PRICE
+      let payment = String(numToMint * 0.004); 
       console.log("payment:", payment);
-      //   console.log("Total Supply Data:", totalSupply);
+      
 
       let totalGas;
       if (numToMint < 2) {
@@ -221,7 +221,7 @@ const Intro = () => {
                           Your NFTs have been minted
                         </h3>
                         <a
-                          href={`https://goerli.etherscan.io/tx/${txn}`}
+                          href={`https://etherscan.io/tx/${txn}`}
                           rel={"noreferrer"}
                           target="_blank"
                           className="text-lg text-decoration-line: underline text-white"
@@ -230,7 +230,7 @@ const Intro = () => {
                         </a>
                         <br></br>
                         <a
-                          href={`https://testnets.opensea.io/${address}`}
+                          href={`https://opensea.io/${address}`}
                           rel={"noreferrer"}
                           target="_blank"
                           className="text-lg text-decoration-line: underline text-white"
@@ -273,9 +273,9 @@ const Intro = () => {
                       <a
                         href="https://twitter.com/share?ref_src=twsrc%5Etfw"
                         className="twitter-share-button"
-                        data-text="Sharing my support for Flor De Loto in Puerto Rico"
-                        data-url="https://www.helpPR.xyz/"
-                        data-hashtags="   helpPR #hurricaneFiona"
+                        data-text="Sharing my support for Flor De Loto in Puerto Rico. Mint a token of support for only 0.004 ETH ~5 bucks"
+                        data-url="https://www.helpPR.xyz/    "
+                        data-hashtags="helpPR #hurricaneFiona #PR"
                         data-show-count="false"
                       >
                         Tweet
@@ -283,7 +283,7 @@ const Intro = () => {
                       <script
                         async
                         src="https://platform.twitter.com/widgets.js"
-                        charset="utf-8"
+                        charSet="utf-8"
                       ></script>
                     </div>
 
