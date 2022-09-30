@@ -92,7 +92,7 @@ const Header = () => {
             <li className="flex items-center">
               <a
                 className="py-2 text-sm uppercase px-6 font-bold leading-snug text-gray-800 lg:text-base lg:text-white hover:opacity-75 lg:px-3"
-                href="https://opensea.io/"
+                href="https://opensea.io/collection/flor-de-loto-pr"
                 target="_blank"
                 rel="noreferrer"
                 onClick={() => setNavbarOpen(!navbarOpen)}
