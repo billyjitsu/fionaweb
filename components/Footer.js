@@ -15,7 +15,7 @@ const Footer = () => {
           </div>
 
           <div className="flex flex-col space-y-2 items-center md:space-x-4 md:flex-row md:space-y-0 ">
-            <a href="https://twitter.com/helppr_flm" target="_blank" rel="noreferrer" >
+            <a href="https://twitter.com/helpprflm" target="_blank" rel="noreferrer" >
               <FontAwesomeIcon
                 icon={faTwitter}
                 width="25px"

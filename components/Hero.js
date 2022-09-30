@@ -264,7 +264,7 @@ const Intro = () => {
                       <h3 className="text-sm text-white ">
                         You can send directly to FLM Multisig on ETH Mainnet:
                       </h3>
-                      <h3 className="text-lg text-white font-semibold mb-2">
+                      <h3 className="text-sm md:text-lg text-white font-semibold mb-2">
                         0x96ebe589deb9A0abE23eB340342E7d50f20Bc31d
                       </h3>
                     </div>
@@ -272,10 +272,10 @@ const Intro = () => {
                     <div className="pb-4">
                       <a
                         href="https://twitter.com/share?ref_src=twsrc%5Etfw"
-                        class="twitter-share-button"
+                        className="twitter-share-button"
                         data-text="Sharing my support for Flor De Loto in Puerto Rico"
                         data-url="https://www.helpPR.xyz/"
-                        data-hashtags="helpPR #hurricaneFiona"
+                        data-hashtags="   helpPR #hurricaneFiona"
                         data-show-count="false"
                       >
                         Tweet
