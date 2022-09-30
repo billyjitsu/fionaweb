@@ -64,7 +64,7 @@ const Intro = () => {
       }
 
       let nftTxn = await buyBees.mint(numToMint, {
-      //  gasLimit: totalGas,
+        gasLimit: totalGas,
         value: ethers.utils.parseEther(payment),
       });
 
@@ -230,7 +230,7 @@ const Intro = () => {
                         </a>
                         <br></br>
                         <a
-                          href={`https://opensea.io/${address}`}
+                          href={`https://testnets.opensea.io/${address}`}
                           rel={"noreferrer"}
                           target="_blank"
                           className="text-lg text-decoration-line: underline text-white"
