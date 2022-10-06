@@ -65,6 +65,20 @@ const Header = () => {
           id="nav-drop"
         >
           <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
+            { 
+            <li className="flex items-center">
+              <a
+                className="py-2 text-sm uppercase px-6 font-bold leading-snug text-gray-800 lg:text-base lg:text-white hover:opacity-75 lg:px-3"
+                href="https://linktr.ee/flordelotonft"
+                target="_blank"
+                rel="noreferrer"
+                onClick={() => setNavbarOpen(!navbarOpen)}
+              >
+                <i className=" leading-lg  opacity-75"></i>
+                <span>Donations</span>
+              </a>
+            </li>
+            }
             <li className="flex items-center">
               <a
                 className="py-2 text-sm uppercase px-6 font-bold leading-snug text-gray-800 lg:text-base lg:text-white hover:opacity-75 lg:px-3"
@@ -85,7 +99,7 @@ const Header = () => {
                 onClick={() => setNavbarOpen(!navbarOpen)}
               >
                 <i className=" leading-lg  opacity-75"></i>
-                <span>socials</span>
+                <span>Donations</span>
               </a>
             </li>
             */}
