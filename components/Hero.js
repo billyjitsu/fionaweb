@@ -1,6 +1,7 @@
 import Image from "next/image";
 import heroImage from "../images/bg.webp";
 import beezImg from "../images/banner.png";
+import qr from "../images/qr.jpg";
 import { ethers } from "ethers";
 import { useState, useEffect } from "react";
 import {
@@ -264,7 +265,12 @@ const Intro = () => {
                       <h3 className="text-sm text-white ">
                         You can send directly to FLM Multisig on ETH Mainnet:
                       </h3>
-                      <h3 className="text-sm md:text-lg text-white font-semibold mb-2">
+                      <h3 className="text-lg md:text-2xl text-white font-bold  mb-2">
+                        HelpPR.ETH
+                      </h3>
+                      
+                      <Image src={qr} alt="QR Code" className="" />
+                      <h3 className="text-sm md:text-lg text-white  mb-2">
                         0x96ebe589deb9A0abE23eB340342E7d50f20Bc31d
                       </h3>
                     </div>
